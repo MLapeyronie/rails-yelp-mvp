@@ -1,1 +1,9 @@
 // Specific CSS for your home-page
+.brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid 1px gray;
+  height: 90px;
+  width: 100%;
+}

@@ -1,0 +1,16 @@
+.all-restaurants {
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  column-gap: 10px;
+  row-gap: 30px;
+  place-self: center;
+
+}
+
+.container-card {
+  background-color: blue;
+  height: 240px;
+  width: 280px;
+
+  border: solid 2px black;
+}
