@@ -3,13 +3,13 @@
   background-color: #F1F1F1;
   display: flex;
   justify-content: flex-end;
-  height: 40px;
+  height: 30px;
   p {
     display: flex;
-    margin-right: 20px;
+    margin-right: 40px;
     align-items: center;
     height: 100%;
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
@@ -48,7 +48,16 @@
   width: 37%;
   justify-content: space-around;
   align-items: center;
-  font-size: 25px;
+  font-size: 30px;
+}
+
+.last-3 {
+  // justify-content: space-evenly;
+  // width: 20%;
+  justify-content: space-around;
+  width: 43%;
+  text-align: center;
+  display: flex;
 }
 
 .menu {
@@ -69,7 +78,7 @@
   }
   p {
     margin-bottom: 0px;
-    font-size: 20px;
+    font-size: 16px;
   }
   a {
     color: black;
@@ -108,7 +117,7 @@
 .fit-picture {
   display: flex;
   width: 861px;
-  height: 400px;
+  height: 450px;
   object-fit: cover;
   margin-left: 55px;
   margin-top: 36px;
@@ -116,16 +125,43 @@
 
 .color-block {
   display: flex;
-  background-color: pink;
-  height: 400px;
+  background-color: #6A876D;
+  height: 450px;
   width: 465px;
   margin-top: 36px;
   margin-right: 55px;
 }
 
 .title {
+  width: 100%;
+  text-align: justify;
+  margin-top: 15%;
+  padding: 0 40px;
+  color: white;
+  p {
+    margin-bottom: 20px;
+  }
+  h2 {
+    margin-bottom: 50px;
+    font-size: 20px;
+  }
 }
 
+.button {
+  color: white;
+  border: solid 1px white;
+  background-color: #6A876D;
+  padding: 10px 25px;
+  cursor: pointer;
+}
 
+.button:hover {
+  background-color: white;
+  color: #6A876D;
+}
+
+.button:active {
+  background-color: white;
+}
 
 
