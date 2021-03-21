@@ -1,13 +1,26 @@
-<%= link_to "Add new restaurant", new_restaurant_path %>
+<%#= link_to "Add new restaurant", new_restaurant_path %>
 
-<h1>My Restaurants 🍴</h1>
+<!-- <h1>My Restaurants 🍴</h1>
 
 <div class="all-restaurants">
-  <% @restaurants.each do |restaurant| %>
+  <%# @restaurants.each do |restaurant| %>
     <div class="container-card">
-      <%= link_to restaurant.name, restaurant_path(restaurant) %>
+      <%#= link_to restaurant.name, restaurant_path(restaurant) %>
     </div>
-  <% end %>
+  <%# end %>
+</div>
+ -->
+<%= render "components/navbar" %>
+
+<div class="banner">
+  <p>- 10% supp. sur la Mode</p>
 </div>
 
+<div class="tab">
+  <p>Pirate & Cassis / <strong>Femme</strong></p>
+</div>
 
+<div class="category-name">
+  <h1>Mode femme</h1>
+  <p>Les catégories les plus recherchées par nos clients</p>
+</div>

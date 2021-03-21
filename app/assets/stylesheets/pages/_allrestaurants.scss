@@ -1,16 +1,42 @@
-.all-restaurants {
-  display: grid;
-  grid-template-columns: repeat(3, 33%);
-  column-gap: 10px;
-  row-gap: 30px;
-  place-self: center;
+// .all-restaurants {
+//   display: grid;
+//   grid-template-columns: repeat(3, 33%);
+//   column-gap: 10px;
+//   row-gap: 30px;
+//   place-self: center;
 
+// }
+
+// .container-card {
+//   background-color: blue;
+//   height: 240px;
+//   width: 280px;
+
+//   border: solid 2px black;
+// }
+
+.banner {
+  background-color: #FCEFEE;
+  height: 35px;
+  p {
+    display:flex;
+    color: #DE3E51;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    height: 100%;
+  }
 }
 
-.container-card {
-  background-color: blue;
-  height: 240px;
-  width: 280px;
+.tab {
+  margin: 10px 32px;
+  font-size: 14px;
+}
 
-  border: solid 2px black;
+.category-name {
+  text-align: center;
+  margin-top: 35px;
+  h1 {
+    margin-bottom: 35px;
+  }
 }
