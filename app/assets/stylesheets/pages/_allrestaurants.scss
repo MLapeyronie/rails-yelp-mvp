@@ -40,3 +40,20 @@
     margin-bottom: 35px;
   }
 }
+
+.category-clothes {
+  display: flex;
+  flex-wrap: wrap;
+  li {
+    margin: 0px 60px;
+    justify-content: center;
+    text-align: center;
+    list-style-type: none;
+    border: solid 1px black;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8px 20px;
+    border-radius: 22px;
+    margin: 7px 12px;
+  }
+}
